@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,800");
 
 * {
     margin: 0;
@@ -64,6 +64,7 @@ blockquote {
     font-weight: 300;
     color: #1f2937;
     width: 800px;
+    align-self: center;
 }
 
 footer {
@@ -143,35 +144,27 @@ footer {
     text-align: center;
 }
 
-.testimonial {
+.quote {
     background-color: #e5e7eb;
     display: flex;
-    justify-content: center;
     align-items: center;
-    padding: 100px;
+}
+
+.quote-author {
+    font-size: 22px;
+    color:  #1f2937;
 }
 
 .call-container {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     background-color: #3882f6;
     color: white;
     border-radius: 10px;
-}
-
-.call-section {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 50px;
-}
-
-.call {
     height: 150px;
-    width: 800px;
+    width: 900px;
 }
 
 .callbtn {
