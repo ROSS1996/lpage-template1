@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header, footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+nav {
+    list-style-type: none;
+    font-size: 18px;
+}
+
+nav a {
+    color: #E5E7EB;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    width: 120px;
+    height: 40px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 1px solid #3882f6;
+    font-size: 16px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    background-color: #0950c3;
+}
+
+blockquote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.placeholder-big {
+    background-color: #6D747D;
+    width: 500px;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonial {
+    background-color: #E5E7EB;
+}
+
+.information {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.illustration {
+    color: #4B5563;
+}
+
+.illustration-ph {
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
+    border: 4px solid #3882f6;
+}
+
+.call {
+    height: 150px;
+    width: 800px;
+    background-color: #3882f6;
+    color: white;
+}
+
+.callbtn {
+    border: 2px solid white;
+}
